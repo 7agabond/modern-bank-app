@@ -4,7 +4,7 @@ import React from "react";
 
 const GetStarted = () => (
   <div
-    className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}
+    className={`transition-all ${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer hover:translate-y-1 hover:transition-all`}
   >
     <div
       className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}
